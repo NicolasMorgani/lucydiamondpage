@@ -27,7 +27,7 @@ export default function RootLayout({
       <head>
         
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" async></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" ></script>
       </head>
 
       <body className={inter.className}>
@@ -59,6 +59,7 @@ export default function RootLayout({
             
           </footer>
         </ThemeProvider>
+        
         <script>
   AOS.init();
 </script>
