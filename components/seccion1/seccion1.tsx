@@ -8,10 +8,10 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import {Teko } from "next/font/google";
 
 
-const teko = Teko({subsets: ["latin"]})
+
+
 
 
 
@@ -21,7 +21,7 @@ const Seccion1 = () => {
     <div >
       <div data-aos="fade-down">
       <div className="flex justify-center items-center mt-10">
-        <h1 className="font-bold text-6xl">Don Jose de San Martin</h1>
+        <h1 className="font-bold text-3xl md:text-6xl">Don Jose de San Martin</h1>
       </div>
       </div>
       <div data-aos="fade-up">
@@ -38,10 +38,10 @@ const Seccion1 = () => {
         >
           <CarouselContent>
             <CarouselItem className="basis-1/3"><Image src={"/sanmartin.jpg"} width={80} height={80} alt="picture san martin" /></CarouselItem>
-            <CarouselItem className="basis-1/3"><Image src={"/sanmartin.jpg"} width={80} height={80} alt="picture san martin" /></CarouselItem>
-            <CarouselItem className="basis-1/3"><Image src={"/sanmartin.jpg"} width={80} height={80} alt="picture san martin" /></CarouselItem>
-            <CarouselItem className="basis-1/3"><Image src={"/sanmartin.jpg"} width={80} height={80} alt="picture san martin" /></CarouselItem>
-            <CarouselItem className="basis-1/3"><Image src={"/sanmartin.jpg"} width={80} height={80} alt="picture san martin" /></CarouselItem>
+            <CarouselItem className="basis-1/3"><Image src={"/sanmartin4.jpeg"} width={80} height={80} alt="picture san martin" /></CarouselItem>
+            <CarouselItem className="basis-1/3"><Image src={"/sanmartin6.jpeg"} width={80} height={80} alt="picture san martin" /></CarouselItem>
+            <CarouselItem className="basis-1/3"><Image src={"/sanmartin7.jpg"} width={80} height={80} alt="picture san martin" /></CarouselItem>
+            <CarouselItem className="basis-1/3"><Image src={"/sanmar.jpg"} width={80} height={80} alt="picture san martin" /></CarouselItem>
        
           
           </CarouselContent>
@@ -49,18 +49,7 @@ const Seccion1 = () => {
           <CarouselNext />
         </Carousel>
       </div>
-      <div className={teko.className}>
-      <div className="flex justify-center items-center m-28 text-3xl" >
-        <Card>
-        <p className="md:m-10 md:p-10 m-5">El General Don José de San Martín fue un líder clave en las guerras de independencia de América del Sur. 
-          Destacado por sus estrategias brillantes, lideró la exitosa campaña de los Andes, 
-          cruzando la cordillera con un ejército que liberó Chile en la Batalla de Chacabuco y 
-          posteriormente aseguró la independencia de Perú tras la victoria en la Batalla de Maipú y 
-          la entrada triunfal en Lima. Su visión y liderazgo fueron cruciales para la emancipación de
-           varias naciones sudamericanas del dominio español.</p>
-           </Card>
-      </div>
-      </div>
+      
 
     </div>
   )

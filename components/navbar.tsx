@@ -14,10 +14,10 @@ const Navbar = () => {
             <p>Home</p>
             </Link>
             <Link href="/#seccion2">
-            <p>Games</p>
+            <p>Legado</p>
             </Link>
-            <Link href="/">
-            <p>Experiencies</p>
+            <Link href="/#seccion3">
+            <p>Logros</p>
             </Link>
         </div>
     </nav>
