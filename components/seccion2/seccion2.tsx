@@ -1,3 +1,4 @@
+
 import React from 'react'
 import {
     Card,
@@ -9,6 +10,8 @@ import {
   } from "@/components/ui/card"
 import Image from 'next/image'
 import { Cinzel } from "next/font/google";
+
+
 
 
 const cinzel = Cinzel({subsets: ["latin"]})
@@ -72,6 +75,7 @@ const Seccion2 = () => {
             fue un hombre indispensable para la emancipación de los pueblos sudamericanos.</p>
            </Card>
       </div>
+      
     </div>
   )
 }

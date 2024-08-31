@@ -8,6 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import Textodinamic from "../texto-dinamic"
 
 
 
@@ -22,6 +23,10 @@ const Seccion1 = () => {
       <div data-aos="fade-down">
       <div className="flex justify-center items-center mt-10">
         <h1 className="font-bold text-3xl md:text-6xl">Don Jose de San Martin</h1>
+       
+      </div>
+      <div className="flex justify-center">
+      <Textodinamic/>
       </div>
       </div>
       <div data-aos="fade-up">

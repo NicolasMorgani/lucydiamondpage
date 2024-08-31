@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
@@ -5,6 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css";
 
 import Navbar from "@/components/navbar";
+
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -25,7 +27,7 @@ export default function RootLayout({
       <head>
         
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" async></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       </head>
 
       <body className={inter.className}>
@@ -42,10 +44,17 @@ export default function RootLayout({
           </main>
           <footer >
             <div className="flex justify-center items-center mt-40 " >
-                  <p>NicoMorgani ❤</p>
+                  
             </div>
-            <div className="flex justify-center items-center mb-28" >
+            <div data-aos="zoom-in" >
+            <div className="flex justify-center items-center " >
+           
+           <p>❤Nico Morgani - Lucy Diamond❤ </p>
+     </div>
+            <div className="flex justify-center items-center mb-28 mt-5" >
+           
                   <p>Todos los Derechos Reservados 😎</p>
+            </div>
             </div>
             
           </footer>
