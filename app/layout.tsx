@@ -46,7 +46,8 @@ export default function RootLayout({
             <div className="flex justify-center items-center mt-40 " >
                   
             </div>
-            <div  >
+            <div data-aos="fade-up"
+     data-aos-duration="3000" >
             <div className="flex justify-center items-center " >
            
            <p>❤Nico Morgani - Lucy Diamond❤ </p>

@@ -10,6 +10,7 @@ import {
   } from "@/components/ui/card"
 import Image from 'next/image'
 import { Cinzel } from "next/font/google";
+import Video from '@/components/video';
 
 
 
@@ -75,7 +76,9 @@ const Seccion2 = () => {
             fue un hombre indispensable para la emancipación de los pueblos sudamericanos.</p>
            </Card>
       </div>
-      
+      <div className='flex justify-center mt-24'>
+      <Video />
+      </div>
     </div>
   )
 }
