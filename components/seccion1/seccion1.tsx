@@ -21,7 +21,7 @@ const Seccion1 = () => {
   return (
     <div >
       <div data-aos="fade-down">
-      <div className="flex justify-center items-center mt-10">
+      <div className="flex justify-center items-center text mt-10">
         <h1 className="font-bold text-3xl md:text-6xl">Don Jose de San Martin</h1>
        
       </div>
@@ -29,12 +29,14 @@ const Seccion1 = () => {
       <Textodinamic/>
       </div>
       </div>
+      
+
       <div data-aos="fade-up">
       <div className="flex justify-center items-center mt-10">
         <Image src={"/sanmartin.jpg"} width={400} height={400} alt="san martin Home" />
       </div>
       </div>
-      <div className="flex justify-center items-center mt-28">
+      <div className=" flex justify-center items-center mt-28">
         <Carousel
           opts={{
             align: "start",

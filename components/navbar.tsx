@@ -4,20 +4,20 @@ import { ModeToggle } from './botonDark'
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-between items-center p-4'>
+    <nav className='flex justify-between  m-4'>
         <div className='flex gap-3 '>
-            <h1 className='text-xl py-1'><span className='font-bold'>LucyDiamond</span></h1>
+            <h1 className='text-l py-1'><span className='font-bold'>LucyDiamond</span></h1>
             <ModeToggle/>
         </div>
         <div className='flex gap-3'>
-            <Link href="#seccion1">
-            <p>Home</p>
+            <Link href="#seccion1" >
+            <p className='hover:text-cyan-400'>Home</p>
             </Link>
             <Link href="/#seccion2">
-            <p>Legado</p>
+            <p className='hover:text-cyan-400'>Legado</p>
             </Link>
             <Link href="/#seccion3">
-            <p>Logros</p>
+            <p className='hover:text-cyan-400'>Logros</p>
             </Link>
         </div>
     </nav>

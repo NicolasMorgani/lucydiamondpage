@@ -21,7 +21,7 @@ const Seccion2 = () => {
   return (
     <div className={cinzel.className} id='seccion2'>
 
-    <div className='container flex items-center justify-center gap-12  mt-28 flex-wrap '>
+    <div className='container flex items-center justify-center gap-12  mt-40 flex-wrap '>
     <div data-aos="fade-right">
          <Card className="w-[300px] ">
       <CardHeader>
