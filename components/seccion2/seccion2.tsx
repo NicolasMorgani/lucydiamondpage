@@ -11,6 +11,7 @@ import {
 import Image from 'next/image'
 import { Cinzel } from "next/font/google";
 import Video from '@/components/video';
+import { Separator } from "@/components/ui/separator"
 
 
 
@@ -38,7 +39,7 @@ const Seccion2 = () => {
     </Card>
     </div>
     <div data-aos="fade-left">
-         <Card className="w-[300px]  " >
+         <Card className="w-[300px] mt-10 " >
       <CardHeader>
         <CardTitle>El Retiro</CardTitle>
         <CardDescription>En Argentina se lo reconoce como el Padre de la Patria​ y el «Libertador»,​ 
@@ -55,8 +56,10 @@ const Seccion2 = () => {
     
 
     </div>
-
-    <div data-aos="flip-right" className=" m-2 md:m-28 text-3xl" >
+    <div className="flex justify-center">
+      <Separator className=" bg-white max-w-56 mt-28"/>
+      </div>
+    <div data-aos="flip-right" className=" mx-16 mt-36 text-xl md:m-28 md:text-3xl" >
         <Card>
         <p className="m-5 md:m-10 md:p-10 ">El General Don José de San Martín fue un líder clave en las guerras de independencia de América del Sur. 
           Destacado por sus estrategias brillantes, lideró la exitosa campaña de los Andes, 
@@ -66,18 +69,30 @@ const Seccion2 = () => {
            varias naciones sudamericanas del dominio español.</p>
            </Card>
       </div>
+      <div className="flex justify-center">
+      <Separator className=" bg-white max-w-56 mt-28"/>
+      </div>
     <div data-aos="zoom-in" className='flex justify-center items-center mt-32'>
       <Image  id='seccion3' src={"/sanmartin8.jpg"}width={750}height={750}alt='sanmartin8'/>
     </div>
-    <div data-aos="flip-right" className="flex justify-center items-center mt-28 text-3xl" >
+    <div className="flex justify-center">
+      <Separator className=" bg-white max-w-56 mt-28"/>
+      </div>
+    <div data-aos="flip-right" className="flex justify-center items-center mx-16 mt-28 " >
         <Card>
-        <p className="m-5 md:m-10 md:p-10 ">Fue una figura clave para la concreción y la consolidación de nuestra independencia política.
+        <p className="m-5 text-xl md:text-3xl md:m-10 md:p-10 ">Fue una figura clave para la concreción y la consolidación de nuestra independencia política.
            Además, contribuyó de manera decisiva en los procesos independentistas de Chile y del Perú; por lo tanto,
             fue un hombre indispensable para la emancipación de los pueblos sudamericanos.</p>
            </Card>
       </div>
+      <div className="flex justify-center">
+      <Separator className=" bg-white max-w-56 mt-28"/>
+      </div>
       <div className='flex justify-center mt-24'>
       <Video />
+      </div>
+      <div className="flex  justify-center">
+      <Separator className=" bg-white max-w-56 mt-28"/>
       </div>
     </div>
   )

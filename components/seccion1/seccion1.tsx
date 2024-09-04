@@ -9,6 +9,8 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import Textodinamic from "../texto-dinamic"
+import { Separator } from "@/components/ui/separator"
+
 
 
 
@@ -20,15 +22,18 @@ import Textodinamic from "../texto-dinamic"
 const Seccion1 = () => {
   return (
     <div >
-      <div data-aos="fade-down">
-      <div className="flex justify-center items-center text mt-10">
+      
+      <div data-aos="fade-down" className="flex justify-center items-center text mt-10">
         <h1 className="font-bold text-3xl md:text-6xl">Don Jose de San Martin</h1>
        
       </div>
       <div className="flex justify-center">
+      <Separator className=" bg-white max-w-56 mt-8"/>
+      </div>
+      <div className="flex justify-center">
       <Textodinamic/>
       </div>
-      </div>
+      
       
 
       <div data-aos="fade-up">
@@ -36,12 +41,15 @@ const Seccion1 = () => {
         <Image src={"/sanmartin.jpg"} width={400} height={400} alt="san martin Home" />
       </div>
       </div>
+      <div className="flex justify-center">
+      <Separator className=" bg-white max-w-56 mt-20"/>
+      </div>
       <div className=" flex justify-center items-center mt-28">
         <Carousel
           opts={{
             align: "start",
           }}
-          className="w-full max-w-sm"
+          className=" max-w-sm"
         >
           <CarouselContent>
             <CarouselItem className="basis-1/3"><Image src={"/sanmartin.jpg"} width={80} height={80} alt="picture san martin" /></CarouselItem>
@@ -56,7 +64,9 @@ const Seccion1 = () => {
           <CarouselNext />
         </Carousel>
       </div>
-      
+      <div className="flex justify-center">
+      <Separator className=" bg-white max-w-56 mt-28"/>
+      </div>
 
     </div>
   )
